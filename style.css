@@ -69,7 +69,8 @@ nav a{
 
 main{
   background-color: #db324d;
-  height: 360vh;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 .bannerContent{
@@ -294,7 +295,8 @@ footer h2{
 /* Style Ilustracion */
 
 .mainIlustracion{
-  height: 710vh;
+  height: auto;
+  padding-bottom: 30px;
 }
 
 
@@ -562,7 +564,8 @@ footer h2{
 
 
 .mainIdentidad{
-  height: 330vh;
+  height: auto;
+  padding-bottom: 30px;
 }
 
   .png img{
@@ -741,7 +744,8 @@ footer h2{
   /***/
 
   .mainMarketing{
-    height: 165vh;
+    height: auto;
+    padding-bottom: 30px;
   }
 
   .gallery__item--74{
