@@ -74,28 +74,25 @@ main{
 }
 
 .bannerContent{
-  position: relative;
-}
-
-.banner{
-  width: 100%;
-  max-height: 750px;
+ height: 750px;
+ background-image: url("img/Pavo.jpg");
+ background-position: center;
 
 }
-
-main img{
-  Object-fit: cover;
+.hero{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
 .titular{
-  top:150px;
   width: 500px;
   height: auto;
   background-color: rgba(255, 255, 255, 28%);
   padding: 30px;
   border-radius: 15px;
   position: absolute;
-  left: 25%;
 }
 
 .titular h1,p{
