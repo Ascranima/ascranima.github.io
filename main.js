@@ -1,5 +1,8 @@
 $('.popup-link').magnificPopup({
   delegate: 'a',
-  type: 'image'
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
     // other options
   });
