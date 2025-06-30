@@ -1,195 +1,220 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <title> Ascranima </title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="magnific-popup.css">
-   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"> --> 
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
-
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <nav>
-        <a href="index.html" class="logo"><img src="img/Logo-01.svg" alt="ascranimaLogo"></a>
-        <ul class="nav-links">
-          <li class="nav-item"><a href="index.html">Inicio</a></li>
-          <li class="nav-item"><a href="ilustracion.html">Ilustración</a></li>
-          <li class="nav-item"><a href="identidad.html">Identidad</a></li>
-          <li class="nav-item"><a href="marketing.html">Marketing</a></li>
-          <li class="nav-item"><a href="acerca.html">Acerca</a></li>
-        </ul>
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Axel Castro Romero - Portafolio</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/styles_compiled.css" rel="stylesheet" />
+    <script src="./js/Main.ts" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="body g-slate-900">
+    <header class="header">
+      <div class="header-logo">
+        
+        <a href="index.html"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf1c66ce23b791b80ffe54ec497ddb326af7c319" alt="Logo" class="logo-img" /></a>
+      </div>
+      <nav class="nav-menu">
+        <a href="#hero" class="btn-nav w-[89px]">Inicio</a>
+        <a href="#uxui" class="btn-nav w-[93px]">UX/UI</a>
+        <a href="#ilustracion" class="btn-nav w-[134px]">Ilustración</a>
+        <a href="#identidad" class="btn-nav w-[126px]">Identidad</a>
+        <a href="#perfil" class="btn-nav w-[86px]">Perfil</a>
       </nav>
-    </div>
+    </header>
 
-  </header>
-
-  <main>
-
-    <div class="bannerContent">
-      <div class="container hero">
-        <div class="titular">
-          <h1>Creatividad y diversión</h1>
-          <p>Soy un estudiante apasionado por el diseño gráfico con un enfoque en el UX Design y el desarrollo web.
-            Actualmente estoy estudiando en la Universidad Nacional de Colombia y busco oportunidades en la industria de
-            los videojuegos. </p>
-
-          <p>Estoy emocionado de aplicar mis habilidades y conocimientos en una posición de desarrollador web en la
-            industria de los videojuegos. Me gustaría formar parte de un equipo innovador y dedicado a crear
-            experiencias emocionantes para los usuarios.</p>
-          </p>
-
-          <ul class="rs-links">
-            <li class="rs-items"><a href="https://www.instagram.com/hkroosy1/"><img src="img/instagram.png" alt=""></a>
-            </li>
-            <li class="rs-items"><a href="https://twitter.com/Hkroosy1"><img src="img/twitter.png" alt=""></a></li>
-            <li class="rs-items"><a href="https://www.behance.net/axelcastro4"><img src="img/behance.png" alt=""></a>
-            </li>
-            <li class="rs-items"><a href="https://www.linkedin.com/in/axel-castro-9b7472236/"><img
-                  src="img/linkedin.png" alt=""></a></li>
-          </ul>
+    <main class="main">
+      <!-- HERO -->
+      <section id="hero" class="hero-section">
+        <div class="hero-content">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/493425babdc0144dbe8f3c29c4c2a0983b373aa2" alt="Profile" class="hero-avatar" />
+          <div class="hero-info">
+            <div class="hero-socials">
+              <a href="https://instagram.com/hkroosy1"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/23e8460780dcf949276b724f0e6418ef6d1e3c2c" alt="Instagram" class="social-icon" /></a>
+              <a href="https://x.com/hkroosy1"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c03fde7fa77a59ab172da31f3e802d0c5ff7afa" alt="Twitter" class="social-icon" /></a>
+              <a href="https://www.behance.net/Hkroosy1"><img src="Content/Icon_Behance.svg" alt="Behance" class="social-icon" /></a>
+              <a href="https://www.linkedin.com/in/ascranima/"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/41c5b3dd051b1ec0bdd5d305c20dcd72fd7db017" alt="LinkedIn" class="social-icon" /></a>
+            </div>
+            <div class="hero-text">
+              <span class="text-2xl">Axel Castro Romero</span><br />
+              <span class="font-medium text-lg">Diseñador Gráfico</span><br />
+              <span class="font-medium text-lg">Universidad Nacional de Colombia</span>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <div class="content container">
-      <div class="contIlustracion">
-
-        <h1 class="titularSectionTitle">Ilustración</h1>
-        <div class="gallery popup-link">
-          <figure class="gallery__item gallery__item--1">
-            <a href="img/bosque.jpg"> 
-              <img src="img/bosque.jpg" class="gallery__img" alt="Image 1">
-            </a>
-             
-          </figure>
-
-          <figure class="gallery__item gallery__item--2">
-            <a href="img/dragon.jpg"> 
-            <img src="img/dragon.jpg" class="gallery__img" alt="Image 2">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--3">
-            <a href="img/70s.jpg"> 
-            <img src="img/70s.jpg" class="gallery__img" alt="Image 3">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--4">
-            <a href="img/Postal 5.jpg"> 
-            <img src="img/Postal 5.jpg" class="gallery__img" alt="Image 4">
-            </a>
-          </figure>
+      <!-- UX/UI -->
+      <section id="uxui" class="uxui-section">
+        <div class="section-container">
+          <h2 class="section-title">UX/UI</h2>
+          <p class="section-subtitle">Da clic en la imagen del proyecto para verlo en detalle</p>
+          <div class="project-grid">
+            <article class="project-card">
+              <a href="https://www.behance.net/gallery/175467979/Prototipo-de-videojuego-The-Stranger"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/c83c70c94efcf99eaddb38f6a25857a8a8a4d6e0" alt="The Stranger" class="project-img--4 aspect-[1.29]" /></a>
+              <div class="project-text">
+                <h3 class="project-title">The Stranger</h3>
+                <p class="project-desc">Propuesta de videojuego sobre salud mental y fantasía.<br><br>Es una propuesta de videojuego independiente enfocada en visibilizar los trastornos mentales y sugerir mecanismos de ayuda a través de una historia de fantasía.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <a href="https://www.behance.net/gallery/174815045/UX-l-UI-Mentes-en-Accion"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/254bf06260a0becfdc9087b0e8e7066b2888be64" alt="App Mentes en Acción" class="project-img--4 aspect-[1.3]" /></a>
+              <div class="project-text">
+                <h3 class="project-title">Mentes en Acción</h3>
+                <p class="project-desc">Evaluación de usabilidad para adultos mayores.<br><br>Este proyecto es un diagnóstico de usabilidad de un prototipo de aplicación móvil llamada "Mentes en acción" aplicando el protocolo de pensamiento manifestado. Creamos un protocolo para un test de 15 tareas orientadas a adultos mayores de 65 años, con el fin de obtener insights acerca de su experiencia de uso. A partir de los hallazgos obtenidos realizamos un análisis y generamos sugerencias para resolver los problemas identificados.</p>
+              </div>
+            </article>
+            <article class="project-card">
+              <a href="https://www.behance.net/gallery/170343825/Analisis-de-usabilidad-Logicubes"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/65e43c71ad3917bc1a930cc49324cc4dd0dbd1ff" alt="LogiCubes" class="project-img--4 aspect-[1.28]" /></a>
+              <div class="project-text">
+                <h3 class="project-title">LogiCubes</h3>
+                <p class="project-desc">Evaluación heurística y de usabilidad de videojuego educativo.<br><br>Aquí tienes el texto de la imagen:
+                                        Logicubes: The Path es un videojuego en proceso creado por la desarrolladora colombiana Indie Level Studio. Es un puzzle donde se avanza mediante comandos que desarrollan habilidades necesarias para llegar a programar.
+                                        <br>Revisamos distintos aspectos que influyen en la interacción de los jugadores con el juego y su experiencia con este. Usamos una evaluación heurística en pruebas de usuarios para medir la usabilidad y satisfacción del videojuego, analizamos los datos recaudados en las pruebas y sugerimos opciones de mejora para afrontar los problemas que encontramos en el juego.</p>
+              </div>
+            </article>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="contIdentidad">
-        <h1 class="titularSectionTitle">Identidad</h1>
-        <div class="gallery popup-link">
-          <figure class="gallery__item gallery__item--5">
-            <a href="img/Camiseta-ari.jpg">
-            <img src="img/Camiseta-ari.jpg" class="gallery__img" alt="Image 5">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--6">
-            <a href="img/Carpeta-exagon.jpg">
-            <img src="img/Carpeta-exagon.jpg" class="gallery__img" alt="Image 6">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--7">
-            <a href="img/Lata.jpg">
-            <img src="img/Lata.jpg" class="gallery__img" alt="Image 7">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--8">
-            <a href="img/postal-11.jpg">
-            <img src="img/postal-11.jpg" class="gallery__img" alt="Image 8">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--9">
-            <a href="img/Delantal.jpg">
-            <img src="img/Delantal.jpg" class="gallery__img" alt="Image 9">
-            </a>
-          </figure>
+      <!-- ILUSTRACIÓN -->
+      <section id="ilustracion" class="ilustracion-section">
+        <div class="section-container">
+          <h2 class="section-title">ILUSTRACIÓN</h2>
+          <div class="project-grid">
+            <div class="ilustracion-grid">
+              <div class="gallery"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1d368d1879e148efc7def6ec99abe2f4fe2f29d1" alt="Ilustración 1" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/91d3e01163aa229e29a2b728205dbeee7d81cfdd" alt="Ilustración 2" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/a545623dfd039dfe1cec326c89f7ee8950d96dc8" alt="Ilustración 3" class="project-img--2" />
+              </div>
+              <div class="gallery gallery--2"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/e81dd93f27616d1ff6b5a853718b324cb749a524" alt="Ilustración 1" class="project-img--3" />
+              </div>
+               <div class="gallery"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/31aec5b0ff208f916593fdba1b7d61a6f1f829db" alt="Ilustración 1" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/3448f13dad91c54413b5df9f369fc88640cedf62" alt="Ilustración 2" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/740d439bd295c984f222dab528833352d7ac689e" alt="Ilustración 3" class="project-img" />
+              </div>
+               <div class="gallery"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2104f1798c69dba69f6ea3b1a8b8cfe8c92a75bc" alt="Ilustración 1" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ff047b4fa5a75969294c1a029efdbb8d6fda5f6b" alt="Ilustración 2" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/80e9da252c4cf1cbd0071b594edef8f17fd2c88d" alt="Ilustración 3" class="project-img" />
+              </div>
+               <div class="gallery"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7f8aebe38d22ef19d838d0ef1fb4c615051a0433" alt="Ilustración 1" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/7c8135df60c958c0401eef3b30c0e1d2d48647c9" alt="Ilustración 2" class="project-img" />
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac72e892b0c46bf2af49bb5fd03fc2cc31406b17" alt="Ilustración 3" class="project-img" />
+              </div>
+              <div class="gallery gallery--2"> 
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/237cfcc8dfd6d0b367d0a802a121a8e0e8a09c12" alt="Ilustración 1" class="project-img--3" />
+              </div>
+            </div>
+           
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="contMarketing">
-        <h1 class="titularSectionTitle">Marketing</h1>
-        <div class="gallery popup-link">
-          <figure class="gallery__item gallery__item--10">
-            <a href="img/BannerSG-01.jpg">
-            <img src="img/BannerSG-01.jpg" class="gallery__img" alt="Image 10">
-            </a>
-          </figure>
+      
 
-          <figure class="gallery__item gallery__item--11">
-            <a href="img/BD PROMO 1108-02.jpg">
-            <img src="img/BD PROMO 1108-02.jpg" class="gallery__img" alt="Image 11">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--12">
-            <a href="img/CN2_1.jpg">
-            <img src="img/CN2_1.jpg" class="gallery__img" alt="Image 12">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--13">
-            <a href="img/no promo_Mesa de trabajo 1.jpg">
-            <img src="img/no promo_Mesa de trabajo 1.jpg" class="gallery__img" alt="Image 13">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--14">
-            <a href="img/Pide Yogen_Mesa de trabajo 1.jpg">
-            <img src="img/Pide Yogen_Mesa de trabajo 1.jpg" class="gallery__img" alt="Image 14">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--15">
-            <a href="img/Pizza one 2.jpg">
-            <img src="img/Pizza one 2.jpg" class="gallery__img" alt="Image 15">
-            </a>
-          </figure>
-
-          <figure class="gallery__item gallery__item--16">
-            <a href="img/Sub final.jpg">
-            <img src="img/Sub final.jpg" class="gallery__img" alt="Image 16">
-            </a>
-          </figure>
-
+      <!-- IDENTIDAD  -->
+      <section id="identidad" class="identidad-section">
+        <div class="section-container text-teal-50">
+          <h2 class="section-title">IDENTIDAD</h2>
+          <p class="section-subtitle">Da clic en el proyecto para verlo en detalle</p>
+          <div class="project-grid">
+            <div class="resumen">
+              <div class="frame--1">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/1ed7e94a417ea89a265b965e1ea33d8decea3dfb" alt="Identidad 1" class="project-img--4 aspect-[1.44] w-[247px]" />
+                <p class="project-desc indentidad-desc">
+                  Hablando con Alejandra descubrí en ella una pasión sobre la naturaleza y más sobre la naturalidad,
+                  tanto en el entorno como en el cuerpo. Busqué resolver el problema de la identidad definiendo tres valores
+                  que definian tanto su trabajo como su persona, la versatilidad, el impacto y la organicidad, por lo que escogí
+                  de su amplió repertorio de fotografías las que evocarán estos valores. La paleta de color y la tipografia
+                  se definió a partir de una serie de sus trabajos donde los colores azules y amarillos eran abundantes,
+                  y las formas organicas y fluidas. <br><br> Por último el repetido uso del cuerpo como gráfica identitaria debido
+                  a este como un concepto que abarca los tres conceptos, la verstailidad, en cuanto al gran numero de metaforas
+                  y alusiones que le damos a este, la organicidad por lo natural de sus lineas y sus formas, mas arbitrarias
+                  que pensadas y por último el impacto que este genera mediante la expresividad que tiene.
+                </p>
+              </div>
+              <div class="frame--1">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/0c1a06e519bc44db14c7b82c8522502b73465b68" alt="Identidad 1" class="project-img--4 aspect-[1.44] w-[247px]" />
+                <p class="project-desc indentidad-desc">
+                  La identidad visual de Exagon se basa en el concepto de dualidad entre industria y ecología,
+                  presente en el enfoque de la empresa. Este concepto se expresa explícitamente tanto en la conjunción
+                  de formas y colores elegidos para la identidad, como en la estructura del identificador y la elección cromática. <br><br>
+                  El uso del hexágono es central en la construcción del símbolo y de la gráfica complementaria, y como recurso adicional,
+                  se incorpora el patrón generado por la aproximación de los hexágonos, haciendo referencia al panal de abejas, especie
+                  clave en el proceso del producto estrella de la empresa.
+                </p>
+              </div>
+              <div class="frame--1">
+                <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8634aa6c4e3fe77f732ceb847bf6fa14ad1674d3" alt="Identidad 1" class="project-img--4 aspect-[1.44] w-[247px]" />
+                <p class="project-desc indentidad-desc">
+                  Ari Bakery es una pastelería artesanal fundada en 2022, especializada en la creación de productos deliciosos
+                  y cuidadosamente presentados, elaborados con ingredientes de alta calidad y técnicas tradicionales. <br><br>
+                  El identificador de Ari Bakery fue diseñado a partir de su nombre e iniciales, tomando como referencia la letra
+                  cursiva o estilo handwriting. Una de las inspiraciones fueron las mariposas, cuya forma de perfil se utilizó para
+                  diseñar la B mayúscula del identificador, donde además, el asta de la ‘B’ también funciona como el asta de la ‘a’ minúscula.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+
+     
+
+      <!-- PERFIL  -->
+      <section id="perfil" class="perfil-section">
+        <div class="section-container">
+          <h2 class="section-title">PERFIL</h2>
+          <div class="perfil-content">
+            <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b82bdccda08b6988f21c2fc7703fe877299af94c" alt="Perfil" class="perfil-avatar" />
+            <div class="perfil-info">
+              <p><strong class="section-subtitle">Habilidades y experiencia:</strong></p>
+                <ul>
+                  <li>Diseño de Experiencia</li>
+                  <li>Marketing</li>
+                  <li>Diseño de identidad</li>
+                  <li>Desarrollo web</li>
+                  <li>Ilustración</li>
+                  <li>Pasión por experimentar y aprender</li>
+                  <li>Experiencia en trabajo en equipo</li>
+                  <li>Participación en la Global Game Jam 2023</li>
+                </ul>
+              <p class="mt-4"><strong class="section-subtitle">Personalidad:</strong></p>
+              <ul>
+                  <li>Colaborativo</li>
+                  <li>Apasionado por aprender</li>
+                  <li>Gestión eficiente de tareas</li>
+                </ul>
+              <p class="section-subtitle">ascranima@gmail.com</p>
+              <div class="hero-socials">
+              <a href="https://instagram.com/hkroosy1"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/23e8460780dcf949276b724f0e6418ef6d1e3c2c" alt="Instagram" class="social-icon" /></a>
+              <a href="https://x.com/hkroosy1"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/8c03fde7fa77a59ab172da31f3e802d0c5ff7afa" alt="Twitter" class="social-icon" /></a>
+              <a href="https://www.behance.net/Hkroosy1"><img src="Content/Icon_Behance.svg" alt="Behance" class="social-icon" /></a>
+              <a href="https://www.linkedin.com/in/ascranima/"><img src="https://cdn.builder.io/api/v1/image/assets/TEMP/41c5b3dd051b1ec0bdd5d305c20dcd72fd7db017" alt="LinkedIn" class="social-icon" /></a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/2299abc4edab3037f0923ea377e060ccb155c98e" alt="Logo" class="logo-img" />
+        </div>
+        <p class="footer-text">© Axel Castro Romero</p>
       </div>
-
-    </div>
-
-  </main>
-
-  <footer>
-    <h2>Página creada por Axel Castro ©</h2>
-
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="main.js"></script>
-
-</body>
-
-
+    </footer>
+  </body>
 </html>
