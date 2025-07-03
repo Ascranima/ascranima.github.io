@@ -31,12 +31,6 @@
   color: var(--rose-600);
 }
 
-@media (max-width: 768px) {
-  .section-title {
-    font-size: 2.25rem; /* 36px */
-  }
-}
-
 .section-subtitle {
   margin-top: 2.5rem; /* 40px */
   font-size: 1.25rem; /* 20px */
@@ -265,6 +259,19 @@
   max-width: 347px;
 }
 
+.project-img--5 {
+  height: 345px;
+  max-width: 527px;
+  max-height: 527px;
+  flex: 1 0 0;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.perro {
+  background-color: #ffffff;
+}
+
 /* --- IDENTIDAD --- */
 .identidad-section {
   margin-top: 10rem;
@@ -419,4 +426,132 @@ align-items: center;
   font-size: 0.875rem;
   text-align: center;
   color: var(--slate-900);
+}
+
+@media (max-width: 1779px) {
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+  padding-top: 8rem;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  inset: 0 auto auto 0;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--rose-600);
+  height: 100px;
+}
+
+.header-logo {
+  position: absolute;
+  bottom: 15px;
+  left: 100px;
+  width: 175px;
+  padding-top: 0.625rem;
+}
+
+.nav-menu {
+  position: absolute;
+  bottom: 30px;
+  right: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+  color: var(--slate-900);
+  white-space: nowrap;
+}
+
+
+.project-img--4 {
+  object-fit: contain;
+}
+
+.project-grid {
+  flex-direction: column;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  max-width: fit-content;
+}
+
+
+/* --- ILUSTRACIÓN --- */
+.ilustracion-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+
+}
+
+.ilustracion-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.gallery {
+  display: flex;
+  max-height: 527px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px;
+  align-self: stretch;
+
+  
+  max-width: 900px;
+
+}
+
+.frame {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+}
+.project-img {
+  max-height: 300px;
+  
+  object-fit: cover;
+}
+
+.project-img--2 {
+  object-fit: fill;
+  max-height: 300px;
+}
+
+.project-img--3 {
+  object-fit: cover;
+  max-width: 900px;
+  
+}
+
+.project-img--5 {
+  max-height: 274px;
+  max-width: 274px;
+  object-fit: contain;
+}
+
+
+
 }
