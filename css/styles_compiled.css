@@ -1,4 +1,18 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;        /* evita scroll horizontal */
+  background-color: #111;    /* o el fondo que uses */
+}
+
+
 /* --- COLOR VARIABLES (Tailwind default colours used) --- */
 :root {
   --rose-600: #e11d48;
@@ -24,6 +38,16 @@
   font-weight: 300;
   font-size: 1.25rem;
 }
+
+.btn-nav:hover {
+  border-radius: 50px;
+  background: var(--Contraste, #465362);
+}
+
+.btn-menu {
+  display: none;
+}
+
 
 .section-title {
   font-size: 3.75rem; /* 60px */
@@ -119,7 +143,9 @@
   font-weight: 700;
   color: var(--rose-600);
   background-image: url(https://cdn.builder.io/api/v1/image/assets/TEMP/e52ec9c9af3de5a82bb19377fb3dd0c19b377378);
-
+  background-repeat: no-repeat;      /* Evita que se repita */
+  background-size: cover;            /* Ajusta para llenar el contenedor */
+  background-position: center center
 }
 
 .text-2xl {
@@ -551,7 +577,17 @@ align-items: center;
   max-width: 274px;
   object-fit: contain;
 }
+}
+@media (max-width: 1199px) {
+  .btn-nav {
+    display: none;
+  }
 
+  .btn-menu {
+    display: flex;
+  }
 
-
+  .hero-content {
+    max-width: 480px;
+  }
 }
